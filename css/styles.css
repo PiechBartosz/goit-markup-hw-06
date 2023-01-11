@@ -630,10 +630,31 @@ border: none;
 Width: 200px;
 Height: 50px;
 margin-left: 12px;
-color: var(--third-color)
+color: var(--third-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+align-items: center;
+padding: 10px 76px 10px 42px;
+vertical-align: middle;
+
+
+
+
+
 
 }
 
 .display-footer-elements {
   display: flex;
+}
+
+.namiar {
+  /* vertical-align: middle; */
+  position: relative;
+  display: flex;
+  position: absolute;
+
+
+
 }
