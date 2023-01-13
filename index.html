@@ -79,8 +79,8 @@
           </h1>
           
           <button type="button" class="button-style2" data-modal-open>Zamów usługę</button>
-          <!-- <div class="modal is-hidden" data-modal><button data-modal-close>X</button></div> -->
           
+         
          </div>
       </section>
 
@@ -419,6 +419,7 @@
           <input class="footer_botton" type="submit" value="Zapisz się">
  
       </div>
+    
           </div>
           
         </form>
@@ -433,7 +434,64 @@
 
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal><div class="modal"><button class="close-btn" data-modal-close>&times;</button></div>
+    <div class="backdrop is-hidden" data-modal><div class="modal">
+      <div class="text_modal">Zostaw swoje dane w formularzu poniżej</div>
+
+      <div class="field">
+        <label class="text_modal2">Imię</label>
+       <div>
+        <svg width="448" height="40" class="namiar2">
+          <use width="12" height="12" x="55" y="25" href="images/symbol-2.svg#icon-person-black-18dp-1"></use>
+        </svg>
+        <input type="text" name="imię" class="input-style">
+   
+       </div>
+      </div>
+
+
+      <div class="field">
+        <label class="text_modal2">Telefon</label>
+        <div class="abcd">
+          <svg width="448" height="40" class="namiar2">
+            <use width="12" height="12" x="55" y="25" href="images/symbol-2.svg#icon-phone-black-18dp-1"></use>
+          </svg>
+        <input type="tel" name="phonenumber" class="input-style">
+        </div>
+      </div>
+
+
+        <div class="field">
+ <label class="text_modal2">Email</label>
+ <div>
+  
+  <svg width="448" height="40" class="namiar2">
+    <use width="12" height="12" x="55" y="25" href="images/symbol-2.svg#icon-email-black-18dp-1"></use>
+  </svg>
+ 
+        <input type="email" name="email" id="email" reguired class="input-style">
+        </div>
+        </div>
+
+
+        <div class="field">
+        <label class="text_modal2">Komentarz</label>
+        <textarea name="sss" id="sss" cols="30" rows="10" class="input-style2"></textarea>
+      
+      </div>
+
+      <div class="checkbox">
+        
+        <input type="checkbox" name="" id="regulamin"><label for="regulamin" class="checkbox-label">Oświadczam iż akceptuję <span class="text-modal">Regulamin</span> i <span class="text-modal">Politykę Prywatności</span></label>
+        
+      </div>
+
+   
+        <form action="">
+        <input type="submit" value="Wyślij" class="submit-modal">
+        </form>
+
+      
+      <button class="close-btn" data-modal-close>&times;</button></div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
