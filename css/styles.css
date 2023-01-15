@@ -617,8 +617,7 @@ overflow: hidden;
 border-radius: 4px;
 background-color: var(--background-color);
 padding: 15px;
-
-
+color: var(--third-color);
 }
 
 .footer_botton {
@@ -648,7 +647,7 @@ vertical-align: middle;
   display: flex;
 }
 
-.namiar {
+.footer-submit-position {
   display: flex;
   position: absolute;
 
@@ -704,7 +703,7 @@ resize: none;
 outline: 0;
 }
 
-.namiar2 {
+.footer-img-position {
 
   position: absolute;
 display: flex;
@@ -722,7 +721,7 @@ position: absolute;
 
 }
 
-.namiar2:hover {
+.footer-img-position:hover {
   fill: var(--fifth-color);
   cursor: pointer;
 }
@@ -765,4 +764,19 @@ color: #fff;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
+}
+
+.borderstyle1:hover {
+  border: 1px solid var(--fifth-color)
+}
+
+.address2-structure:hover, .p-text-structure:hover {
+  color: var(--third-color);
+}
+
+.input-style:focus,
+.input-style:hover, 
+.input-style2:focus, 
+.input-style2:hover {
+  fill: var(--fifth-color)
 }
