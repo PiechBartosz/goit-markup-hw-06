@@ -791,12 +791,11 @@ line-height: 1.87;
 .input-style:hover, 
 .input-style2:focus, 
 .input-style2:hover {
-  fill: var(--fifth-color)
+  fill: var(--fifth-color);
+  border: 1px solid var(--fifth-color);
 }
 
 .input-wrapper {
   position: relative; 
-
- 
 
 }
