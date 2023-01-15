@@ -359,8 +359,13 @@ h2 {
 }
 
 .icon-position {
-  display: inline;
+  display: flex;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
 .our-clients-display {
@@ -705,8 +710,16 @@ outline: 0;
 
 .footer-img-position {
 
-  position: absolute;
-display: flex;
+position: absolute;
+margin-left: 60px;
+margin-bottom: 0;
+top: 50%;
+transform: translateY(-50%); 
+margin-top: 4px;
+
+
+
+
 
 
 }
@@ -779,4 +792,11 @@ line-height: 1.87;
 .input-style2:focus, 
 .input-style2:hover {
   fill: var(--fifth-color)
+}
+
+.input-wrapper {
+  position: relative; 
+
+ 
+
 }
