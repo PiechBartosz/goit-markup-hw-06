@@ -779,6 +779,10 @@ font-size: 16px;
 line-height: 1.87;
 }
 
+.submit-modal:hover {
+cursor:pointer;
+}
+
 .borderstyle1:hover {
   border: 1px solid var(--fifth-color)
 }
